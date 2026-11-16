@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00000000"> <!-- Transparent -->
+
+    <!-- Example ESP Box -->
+    <ImageView
+        android:id="@+id/imgEspBox"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:src="@drawable/esp_box_border"
+        android:visibility="gone" />
+
+    <!-- Aim Reticle -->
+    <ImageView
+        android:id="@+id/imgAimReticle"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/aim_crosshair"
+        android:layout_gravity="center" />
+
+</FrameLayout>
